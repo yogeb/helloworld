@@ -4,7 +4,7 @@ pipeline {
         stage('git clone') {
          
             steps {
-                   
+               echo 'Building..'      
             }
         }
         
