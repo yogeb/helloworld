@@ -1,13 +1,10 @@
 pipeline {
-       agent {
-                        label 'Node_one'
-                    }
-
+       agent any
     stages {
         stage('git clone') {
          
             steps {
-                git credentialsId: 'gt', url: 'https://github.com/keth-naresh/helloworld.git'
+               echo 'Building..'      
             }
         }
         
