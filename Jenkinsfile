@@ -4,7 +4,8 @@ pipeline {
         stage('git clone') {
          
             steps {
-               echo 'Building..'      
+               echo 'Building..' 
+               echo 'test2..'   
             }
         }
         
