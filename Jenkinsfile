@@ -1,7 +1,7 @@
 pipeline {
        agent any
     stages {
-        stage('compile stage') {
+        stage('git clone') {
          
             steps {
                echo 'Building..'      
